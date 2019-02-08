@@ -1,0 +1,59 @@
+a{
+	text-decoration: none;
+}
+
+body{
+	padding-top: 25px;
+}
+
+.hidden{
+	display: none !important;
+}
+
+.form-add-edit{
+	position: relative;
+}
+
+.form-add-edit .form-wrap{
+	position: sticky;
+    top: 25px;
+}
+
+.list-item-buttons .btn{
+	display: block;
+	width: 70px;
+	margin: auto;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    padding: .55rem;
+}
+
+.list-item{
+	padding-top: 32px;
+}
+
+.list-item-buttons .btn:first-child{
+	margin-bottom: 5px;
+}
+
+.table td:nth-child(1), 
+.table th:nth-child(1){
+	width: 8%;	
+}
+
+.table td:nth-child(2), 
+.table th:nth-child(2){
+	width: 35%;
+}
+
+.table td:nth-child(3), 
+.table th:nth-child(3){
+	width: 35%;
+}
+
+.table td:nth-child(4), 
+.table th:nth-child(4){
+	width: 80px;
+}
